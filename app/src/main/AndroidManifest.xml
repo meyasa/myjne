@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/jneblue"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tracking"></activity>
+        <activity android:name=".HasilTrackingActivity"></activity>
+        <activity android:name=".Tracking" />
         <activity android:name=".home" />
         <activity android:name=".MainActivity" />
         <activity android:name=".splash_screen">

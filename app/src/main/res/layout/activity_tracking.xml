@@ -40,8 +40,9 @@
             <Spinner
                 android:id="@+id/spinnerKotaAsal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"></Spinner>
+                android:layout_height="25dp"
+                android:layout_marginLeft="8dp"
+                ></Spinner>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -59,7 +60,7 @@
             <Spinner
                 android:id="@+id/spinnerKotaAsal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:layout_marginLeft="8dp"></Spinner>
         </LinearLayout>
         <LinearLayout
@@ -76,7 +77,7 @@
             <Spinner
                 android:id="@+id/spinnerKotaTujuan"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:layout_marginLeft="6dp"></Spinner>
         </LinearLayout>
         <LinearLayout
@@ -106,14 +107,26 @@
 <!--    android:layout_height="wrap_content"-->
 <!--    android:editable="false"-->
 <!--    android:hint="Nama Matkul"/>-->
-
-    <Button
-        android:id="@+id/btnSimpanMatkul"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
         android:layout_marginTop="16dp"
-        android:text="Cari"
-        />
-
+        >
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            />
+        <Button
+            android:id="@+id/btnCari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cari"
+            />
+    </LinearLayout>
 
 </LinearLayout>
